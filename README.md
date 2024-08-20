@@ -1,6 +1,6 @@
 # How to play the game
 
-There two versions of game: Game with GUI(Graphical User Interface) and CLI(Command line interface).
+There are two versions of game: Game with GUI(Graphical User Interface) and CLI(Command line interface).
 
 To play using GUI, just run following command in your terminal:
 
