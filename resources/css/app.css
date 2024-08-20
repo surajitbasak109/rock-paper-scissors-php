@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "AnglicanText";
+    src: url("/resources/fonts/anglicantext/AnglicanText.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.game_title {
+    font-family: "AnglicanText", serif;
+    @apply text-xl sm:text-2xl md:text-3xl text-center text-white;
+}
+
+.game_stat_title {
+    font-family: "AnglicanText", serif;
+    @apply text-lg sm:text-xl md:text-2xl text-center text-white absolute top-[-16px] px-2;
+    background-color: #1a022f;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.game_bg_primary {
+    background-color: #1a022f;
+}
+
+.game_over_message {
+    font-family: "AnglicanText", serif;
+    @apply bg-red-950 bg-opacity-95 p-2 flex justify-center items-center absolute w-full h-full flex-col gap-4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
